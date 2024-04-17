@@ -1,0 +1,26 @@
+{
+  "name": "ReactNativeAvoidSoftinput",
+  "version": "4.0.2",
+  "summary": "Native logic for avoiding covering  text inputs by soft input views",
+  "homepage": "https://github.com/mateusz1913/react-native-avoid-softinput#readme",
+  "license": "MIT",
+  "authors": "Mateusz Mędrek <luigimario1913@gmail.com> (https://github.com/mateusz1913)",
+  "platforms": {
+    "ios": "11.0",
+    "tvos": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/mateusz1913/react-native-avoid-softinput.git",
+    "tag": "4.0.2"
+  },
+  "source_files": "ios/**/*.{h,m,mm,cpp,swift}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "SWIFT_OBJC_INTERFACE_HEADER_NAME": "ReactNativeAvoidSoftinput-Swift.h"
+  }
+}
